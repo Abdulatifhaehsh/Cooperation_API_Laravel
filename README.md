@@ -43,54 +43,54 @@ Cooperation API is a robust and scalable API built with the Laravel framework. T
 
 1. **Clone the repository**
 
-   \`\`\`sh
+   ```sh
    git clone https://github.com/Abdulatifhaehsh/Cooperation_API_Laravel.git
    cd Cooperation_API_Laravel
-   \`\`\`
+   ```
 
 2. **Install dependencies**
 
-   \`\`\`sh
+   ```sh
    composer install
-   \`\`\`
+   ```
 
 3. **Set up environment variables**
 
    Copy the \`.env.example\` to \`.env\` and update the necessary configuration.
 
-   \`\`\`sh
+   ```sh
    cp .env.example .env
-   \`\`\`
+   ```
 
 4. **Generate application key**
 
-   \`\`\`sh
+   ```sh
    php artisan key:generate
-   \`\`\`
+   ```
 
 5. **Run migrations**
 
-   \`\`\`sh
+   ```sh
    php artisan migrate
-   \`\`\`
+   ```
 
 6. **Run seeders**
 
-   \`\`\`sh
+   ```sh
    php artisan db:seed
-   \`\`\`
+   ```
 
 7. **Start the development server**
 
-   \`\`\`sh
+   ```sh
    php artisan serve
-   \`\`\`
+   ```
 
 ## Configuration
 
 Ensure to update your \`.env\` file with the correct database credentials and other necessary configuration values. Here is an example of the important configurations:
 
-\`\`\`env
+```env
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:...
@@ -105,7 +105,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 JWT_SECRET=your_jwt_secret_key
-\`\`\`
+```
 
 ## Usage
 
